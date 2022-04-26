@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZ Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        
+        <div id="header">
+            <p id="logo">EZ Library</p>
+            <button id="newBook">New Book!</button>
+        </div>
+        
+        <div id="content">
+        </div>
+    </div>
+    <div id="modal-container">
+        <div id="modal">
+            <p id="closeModal">❌</p>
+            <form id="bookForm">
+                <label for="title">Book title:</label><br>
+                <input type="text" name="title" id="titleInput" required> <br>
+                <label for="author">Author:</label><br>
+                <input type="text" name="author" id="authorInput" required><br>
+                <label for="pages">How many pages:</label><br>
+                <input type="number" name="pages" id="pagesInput" required><br>
+                <label for="status">I read this book:</label>
+                <input type="checkbox" name="status" id="statusInput" value="Yes"><br>
+                <input type="submit" value="Submit Form">
+            </form>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
